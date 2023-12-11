@@ -1,11 +1,11 @@
-package br.com.clouzada.velocidadetime.model
+package br.com.landucci.velocidadetime.model
 
 import com.fasterxml.jackson.annotation.JsonBackReference
 import com.fasterxml.jackson.annotation.JsonFormat
+import jakarta.persistence.*
 import org.hibernate.annotations.Cascade
 import org.hibernate.annotations.CascadeType
 import java.util.*
-import javax.persistence.*
 
 @Entity
 @Table(name = "iteracao")

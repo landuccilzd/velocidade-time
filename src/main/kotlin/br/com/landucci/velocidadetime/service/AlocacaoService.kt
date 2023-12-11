@@ -1,6 +1,6 @@
-package br.com.clouzada.velocidadetime.service
+package br.com.landucci.velocidadetime.service
 
-import br.com.clouzada.velocidadetime.model.Alocacao
+import br.com.landucci.velocidadetime.model.Alocacao
 
 interface AlocacaoService {
     fun listar(): List<Alocacao>

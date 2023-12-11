@@ -1,6 +1,6 @@
-package br.com.clouzada.velocidadetime.service
+package br.com.landucci.velocidadetime.service
 
-import br.com.clouzada.velocidadetime.model.Papel
+import br.com.landucci.velocidadetime.model.Papel
 
 interface PapelService {
     fun listar(): List<Papel>

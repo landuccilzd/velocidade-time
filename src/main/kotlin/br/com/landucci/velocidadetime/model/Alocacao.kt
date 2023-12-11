@@ -1,32 +1,32 @@
-package br.com.clouzada.velocidadetime.model
+package br.com.landucci.velocidadetime.model
 
 import com.fasterxml.jackson.annotation.JsonBackReference
-import javax.persistence.*
+import jakarta.persistence.*
 
 @Entity
 @Table(name = "alocacao")
 data class Alocacao(
 
-    @ManyToOne
-    @JoinColumn(name = "recurso_id")
-    val recurso: Recurso,
+        @ManyToOne
+        @JoinColumn(name = "recurso_id")
+        val recurso: Recurso,
 
-    @ManyToOne
-    @JoinColumn(name = "time_id")
-    val time: Time,
+        @ManyToOne
+        @JoinColumn(name = "time_id")
+        val time: Time,
 
-    @ManyToOne
-    @JoinColumn(name = "papel_id")
-    val papel: Papel,
+        @ManyToOne
+        @JoinColumn(name = "papel_id")
+        val papel: Papel,
 
-    @ManyToOne
-    @JoinColumn(name = "iteracao_id")
-    @JsonBackReference
-    var iteracao: Iteracao,
+        @ManyToOne
+        @JoinColumn(name = "iteracao_id")
+        @JsonBackReference
+        var iteracao: Iteracao,
 
-    var diasFerias: Double = 0.0,
-    var diasAusencia: Double = 0.0,
-    var observacoes: String? = ""
+        var diasFerias: Double = 0.0,
+        var diasAusencia: Double = 0.0,
+        var observacoes: String? = ""
 ) {
 
     init {

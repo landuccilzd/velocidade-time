@@ -1,6 +1,6 @@
-package br.com.clouzada.velocidadetime.service
+package br.com.landucci.velocidadetime.service
 
-import br.com.clouzada.velocidadetime.model.Recurso
+import br.com.landucci.velocidadetime.model.Recurso
 
 interface RecursoService {
     fun listar(): List<Recurso>

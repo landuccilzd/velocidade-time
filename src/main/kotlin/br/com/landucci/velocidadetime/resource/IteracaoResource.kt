@@ -1,9 +1,8 @@
-package br.com.clouzada.velocidadetime.resource
+package br.com.landucci.velocidadetime.resource
 
-import br.com.clouzada.velocidadetime.model.Alocacao
-import br.com.clouzada.velocidadetime.model.Iteracao
-import br.com.clouzada.velocidadetime.model.command.AlocacaoCommand
-import br.com.clouzada.velocidadetime.service.impl.IteracaoServiceImpl
+import br.com.landucci.velocidadetime.model.Iteracao
+import br.com.landucci.velocidadetime.model.command.AlocacaoCommand
+import br.com.landucci.velocidadetime.service.impl.IteracaoServiceImpl
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.web.bind.annotation.*
 

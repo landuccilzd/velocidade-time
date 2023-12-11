@@ -1,3 +1,3 @@
-package br.com.clouzada.velocidadetime.model.command
+package br.com.landucci.velocidadetime.model.command
 
 class DashboardCommand(val mensagem: String)
