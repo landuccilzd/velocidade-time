@@ -1,6 +1,6 @@
-package br.com.clouzada.velocidadetime.model
+package br.com.landucci.velocidadetime.model
 
-import javax.persistence.*
+import jakarta.persistence.*
 
 @Entity
 @Table(name = "papel")

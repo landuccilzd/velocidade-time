@@ -1,6 +1,6 @@
-package br.com.clouzada.velocidadetime.model.repository
+package br.com.landucci.velocidadetime.model.repository
 
-import br.com.clouzada.velocidadetime.model.Alocacao
+import br.com.landucci.velocidadetime.model.Alocacao
 import org.springframework.data.repository.CrudRepository
 
 interface AlocacaoRepository: CrudRepository<Alocacao, Long> {

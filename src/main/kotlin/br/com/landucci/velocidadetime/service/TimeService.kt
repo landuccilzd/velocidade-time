@@ -1,6 +1,6 @@
-package br.com.clouzada.velocidadetime.service
+package br.com.landucci.velocidadetime.service
 
-import br.com.clouzada.velocidadetime.model.Time
+import br.com.landucci.velocidadetime.model.Time
 
 interface TimeService {
     fun listar(): List<Time>

@@ -1,9 +1,9 @@
-package br.com.clouzada.velocidadetime.service.impl
+package br.com.landucci.velocidadetime.service.impl
 
-import br.com.clouzada.velocidadetime.exception.GestaoTimeNotFoundException
-import br.com.clouzada.velocidadetime.model.Papel
-import br.com.clouzada.velocidadetime.model.repository.PapelRepository
-import br.com.clouzada.velocidadetime.service.PapelService
+import br.com.landucci.velocidadetime.exception.GestaoTimeNotFoundException
+import br.com.landucci.velocidadetime.model.Papel
+import br.com.landucci.velocidadetime.model.repository.PapelRepository
+import br.com.landucci.velocidadetime.service.PapelService
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Service
 

@@ -1,8 +1,8 @@
-package br.com.clouzada.velocidadetime.model
+package br.com.landucci.velocidadetime.model
 
 import com.fasterxml.jackson.annotation.JsonFormat
 import java.util.*
-import javax.persistence.*
+import jakarta.persistence.*
 
 @Entity
 @Table(name = "recurso")

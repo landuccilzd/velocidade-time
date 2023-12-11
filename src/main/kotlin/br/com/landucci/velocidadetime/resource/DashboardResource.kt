@@ -1,6 +1,6 @@
-package br.com.clouzada.velocidadetime.resource
+package br.com.landucci.velocidadetime.resource
 
-import br.com.clouzada.velocidadetime.model.command.DashboardCommand
+import br.com.landucci.velocidadetime.model.command.DashboardCommand
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RestController

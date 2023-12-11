@@ -1,4 +1,4 @@
-package br.com.clouzada.velocidadetime.model.command
+package br.com.landucci.velocidadetime.model.command
 
 data class AlocacaoCommand(
     val recursoId: Long,

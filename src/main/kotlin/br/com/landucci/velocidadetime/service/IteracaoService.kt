@@ -1,7 +1,7 @@
-package br.com.clouzada.velocidadetime.service
+package br.com.landucci.velocidadetime.service
 
-import br.com.clouzada.velocidadetime.model.Iteracao
-import br.com.clouzada.velocidadetime.model.command.AlocacaoCommand
+import br.com.landucci.velocidadetime.model.Iteracao
+import br.com.landucci.velocidadetime.model.command.AlocacaoCommand
 
 interface IteracaoService {
     fun listar(): List<Iteracao>

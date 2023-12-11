@@ -1,4 +1,4 @@
-package br.com.clouzada.velocidadetime
+package br.com.landucci.velocidadetime
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

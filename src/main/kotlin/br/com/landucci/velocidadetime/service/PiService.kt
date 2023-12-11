@@ -1,6 +1,6 @@
-package br.com.clouzada.velocidadetime.service
+package br.com.landucci.velocidadetime.service
 
-import br.com.clouzada.velocidadetime.model.Pi
+import br.com.landucci.velocidadetime.model.Pi
 
 interface PiService {
     fun listar(): List<Pi>
