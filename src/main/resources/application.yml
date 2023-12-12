@@ -14,10 +14,10 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/gestao_time_dev
     driver-class-name: com.mysql.cj.jdbc.Driver
-    username:
-    password:
+    username: root
+    password: BeMgCaSrBa0x
 server:
-  port: 8090
+  port: 8080
 ---
 spring:
   config:
@@ -37,7 +37,7 @@ spring:
   jpa:
     show-sql: false
     hibernate:
-      ddl-auto: create
+      ddl-auto: create-drop
   datasource:
     url: jdbc:mysql://localhost:3306/gestao_time_tst
 ---
